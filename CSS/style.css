@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #4b4b4b;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    min-height: 400px;
+  }
+  
+  header {
+    background: #DB6137;
+    font-family: 'Ubuntu', sans-serif;
+    position: fixed;
+    margin: 0 auto;
+    width: 100vw;
+
+  }
+
+  
+  nav {
+    margin-left: 100px;
+    position: absolute;
+    padding-right: 5vw;
+    top: 30px;
+    right: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin: 0 0 0 2vw;
+  }
+
+  nav a {
+  color: #000000;
+	font-size: 15px;
+  font-weight: bold;
+	text-decoration: none;
+  text-transform: uppercase;
+  }
+
+  nav a:hover {
+  color: #ffffff;
+	text-decoration: underline;
+  }
+
+  .logo {
+    height: auto;
+    padding-left: 1vw;
+    position: relative;
+    width: 70px;
+  }
+
+  .caixa a {
+    scroll-margin: 1sec;
+  }
+  .container-titulo {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 120px;
+    font-size: 40px;
+  }
+  
+  .container-titulo h1:hover {
+    cursor: default;
+    transition: 0.1s all;
+    transform: scale(1.1);
+  }
+
+  .conteiner-apresentacao{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top:80px;
+    margin-left: 1vw;
+    width: 100vw;
+  }
+  
+  .apresentacao {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    width: 35%; 
+  }
+
+  .foto-pedro{
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 50%;
+    height: max-content;
+    width: 400px;
+    
+  }
+
+  .container-botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 100px 0 100px 0;
+      
+  }
+
+  .botao-linkedin , .botao-github {
+    
+    background-color: #DB6137;
+    border: none;
+    color: #000000;
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    height: 50px;
+    padding-top: 25px;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+  }
+
+  .botao-github {
+    margin-left: 50px;
+  }
+
+  .botao-linkedin:hover , .botao-github:hover {
+    transition: 0.1s all;
+    transform: scale(1.1);
+    color: #ffffff;
+  }
+
+  .sobre-mim_conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sobre-mim_h1 {
+    font-weight: lighter;
+    margin-top: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+  }
+  .sobre-mim_p {
+    margin: 20px 100px 20px 100px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+  }
+
+  
