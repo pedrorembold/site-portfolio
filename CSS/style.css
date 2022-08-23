@@ -22,7 +22,7 @@
 
   }
 
-  
+
   nav {
     margin-left: 100px;
     position: absolute;
@@ -199,7 +199,7 @@ margin: 30px 0 30px 0;
   width: 50%;
   height: 2px;
   background-color: #ffffff;
-  margin: 200px 0 60px 0;
+  margin: 120px 0 80px 0;
   
   
 }
@@ -241,6 +241,14 @@ margin: 30px 0 30px 0;
   nav a:hover {
   color: #ffffff;
 	text-decoration: underline;
+  }
+
+  .logo {
+    height: auto;
+    ;
+    position: relative;
+    width: 80px;
+    
   }
   .conteiner-apresentacao{
     align-items: center;
