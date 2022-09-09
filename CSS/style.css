@@ -10,11 +10,12 @@
     background-repeat: no-repeat;
     color: #ffffff;
     min-height: 400px;
+    font-family: 'Ubuntu', sans-serif;
   }
   
   header {
     background: #DB6137;
-    font-family: 'Ubuntu', sans-serif;
+    
     position: fixed;
     margin: 0 auto;
     width: 100vw;
@@ -82,7 +83,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    font-family: 'Ubuntu', sans-serif;
+    
     padding-top: 120px;
     font-size: 40px;
     cursor: default;
@@ -101,7 +102,7 @@
   }
   
   .apresentacao {
-    font-family: 'Ubuntu', sans-serif;
+    
     font-size: 50px;
     width: 80%; 
     text-align: center;
@@ -131,7 +132,7 @@
     background-color: #DB6137;
     border: none;
     color: #000000;
-    font-family: 'Ubuntu', sans-serif;
+    
     font-size: 40px;
     font-weight: 600;
     height: 80px;
@@ -154,7 +155,7 @@
 
 .timeline {
   width: 80%;
-  font-family: 'Ubuntu', sans-serif;
+  
   height: auto;
   max-width: 800px;
   margin: 0 auto;
@@ -194,9 +195,9 @@
   margin-bottom: 20px;
 }
 
-.timeline-h2 {
+.titulo-h2 {
 text-align: center;
-font-family: 'Ubuntu', sans-serif;
+
 font-weight: 600;
 font-size: 70px;
 margin: 30px 0 30px 0;
@@ -208,16 +209,46 @@ margin: 30px 0 30px 0;
   width: 50%;
   height: 4px;
   background-color: #ffffff;
-  margin: 120px 0 80px 0;
-  
-  
+  margin: 120px 0 80px 0;    
+}
+
+.conteiner-projetos{
+  display:flex;
+  flex-direction: column;
+  padding: 100px 0;
+  align-items: center;
+}
+
+.titulo-projetos{
+  font-size: 25px;
+}
+.imagem-projeto{
+  width: 80vw;
+  border-style: solid;
+  border-color: #ffffff;
+}
+.descricao-projetos{
+  width: 80vw;
+  text-align: center;
+}
+
+.btn-saiba_mais{
+  height: 50px;
+  width: 80vw;
+  background-color: #DB6137;
+  border: #ffffff;
+  border-style: solid;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration-color: #ffffff;
+
 }
 
 @media only screen and (min-width: 1000px){
   
   header {
     background: #DB6137;
-    font-family: 'Ubuntu', sans-serif;
+    
     position: fixed;
     margin: 0 auto;
     width: 100vw;
@@ -274,7 +305,7 @@ margin: 30px 0 30px 0;
     
   }
   .apresentacao {
-    font-family: 'Ubuntu', sans-serif;
+    
     font-size: 40px;
     width: 550px; 
     padding:40px 100px 0 0;
@@ -295,7 +326,7 @@ margin: 30px 0 30px 0;
     border: none;
     color: #000000;
     display: inline-block;
-    font-family: 'Ubuntu', sans-serif;
+    
     font-size: 20px;
     height: 50px;
     padding-top: 25px;
@@ -316,7 +347,7 @@ margin: 30px 0 30px 0;
   
   .timeline-h2 {
     text-align: center;
-    font-family: 'Ubuntu', sans-serif;
+    
     font-weight: 500;
     font-size: 60px;
     margin: 30px 0 30px 0;
