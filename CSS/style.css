@@ -230,18 +230,27 @@ margin: 30px 0 30px 0;
 .descricao-projetos{
   width: 80vw;
   text-align: center;
+  font-size: 30px;
+  display: none;
+  
 }
 
 .btn-saiba_mais{
-  height: 50px;
+  height: 100px;
   width: 80vw;
   background-color: #DB6137;
   border: #ffffff;
   border-style: solid;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 600;
+  margin: 30px 0;
   text-decoration-color: #ffffff;
+  transition: 0.2s;
+}
 
+.btn-saiba_mais_ativo{
+  background-color: #ffffff;
+  transition: 0.2s;
 }
 
 @media only screen and (min-width: 1000px){
