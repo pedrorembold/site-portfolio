@@ -1,0 +1,58 @@
+.container-titulo {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+    padding-top: 120px;
+    font-size: 40px;
+    cursor: default;
+  }
+  
+  
+
+  .conteiner-apresentacao{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:80px;
+
+    
+  }
+  
+  .apresentacao {
+    
+    font-size: 50px;
+    width: 80%; 
+    text-align: center;
+    
+  }
+
+  .foto-pedro{
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 50%;
+    height: max-content;
+    width: 400px;
+    margin-top: 100px;
+    
+  }
+
+  @media only screen and (min-width: 1000px){
+    .conteiner-apresentacao{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top:80px;
+        
+      }
+      .apresentacao {
+        
+        font-size: 40px;
+        width: 550px; 
+        padding:40px 100px 0 0;
+        text-align: left;
+      }
+
+  }

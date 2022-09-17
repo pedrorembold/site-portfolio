@@ -1,0 +1,81 @@
+.botao-mobile{
+    background-color: transparent;
+    border: none;
+    color: #000000;
+    font-size: 36px;
+    font-weight: 700;
+    position: absolute;
+    right: 70px;
+    top: 15px;
+    cursor: pointer;
+  }
+  
+  .botao-mobile:focus-within ~ nav {
+    height:400px;
+  }
+
+  .container-botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0 100px 0;
+      
+  }
+
+  .botao-linkedin , .botao-github {
+    
+    background-color: #DB6137;
+    border: none;
+    color: #000000;
+    
+    font-size: 40px;
+    font-weight: 600;
+    height: 80px;
+    padding-top: 25px;
+    text-align: center;
+    text-decoration: none;
+    width: 80vw;
+    margin: 30px;
+  }
+
+  @media only screen and (min-width: 1000px){
+
+    .botao-mobile {
+        display: none;
+      }
+      
+    
+      .container-botoes {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 100px 0 100px 0;
+          
+      }
+    
+      .botao-linkedin , .botao-github {
+        
+        background-color: #DB6137;
+        border: none;
+        color: #000000;
+        display: inline-block;
+        
+        font-size: 20px;
+        height: 50px;
+        padding-top: 25px;
+        text-align: center;
+        text-decoration: none;
+        width: 150px;
+      }
+    
+      .botao-github {
+        margin-left: 50px;
+      }
+    
+      .botao-linkedin:hover , .botao-github:hover {
+        transition: 0.1s all;
+        transform: scale(1.1);
+        color: #ffffff;
+      }
+
+  }
