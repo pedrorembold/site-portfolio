@@ -41,5 +41,47 @@
   }
 
   @media only screen and (min-width: 1000px){
+    .conteiner-projetos{
+      display:flex;
+      flex-direction: column;
+      
+    }
+
+    .titulo-projetos{
+      font-size: 25px;
+    }
+    .imagem-projeto{
+      width: 60vw;
+      border-style: solid;
+      border-color: #ffffff;
+      transition:all 0.2s;
+    }
     
+    .descricao-projetos{
+      width: 60vw;
+      text-align: center;
+      font-size: 30px;
+      display: none;
+      
+    }
+    
+    .btn-saiba_mais{
+      height: 100px;
+      width: 60vw;
+      background-color: #DB6137;
+      border: #ffffff;
+      border-style: solid;
+      font-size: 30px;
+      font-weight: 600;
+      margin: 30px 0;
+      text-decoration-color: #ffffff;
+      transition: 0.2s;
+      cursor: pointer;
+    }
+    
+    .btn-saiba_mais_ativo{
+      background-color: #ffffff;
+      transition: 0.2s;
+      cursor: pointer;
+    }
   }
