@@ -1,0 +1,10 @@
+.conteiner-contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto-contato{
+    font-size: 24px;
+    text-decoration: none;
+}
