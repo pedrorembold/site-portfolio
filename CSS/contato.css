@@ -4,7 +4,15 @@
     align-items: center;
 }
 
-.texto-contato{
-    font-size: 24px;
-    text-decoration: none;
+.icones{
+    width: 170px;
+    padding: 40px 0 10px;
+}
+
+.nomes-icones{
+    font-size: 20px;
+}
+
+.nomes-icones:last-child{
+    padding: 20px;
 }
