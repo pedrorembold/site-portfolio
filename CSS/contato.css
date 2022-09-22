@@ -2,11 +2,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 80px;
 }
 
 .icones{
     width: 170px;
-    padding: 40px 0 10px;
+    padding: 40px 0 10px 0;
 }
 
 .nomes-icones{
@@ -14,5 +15,28 @@
 }
 
 .nomes-icones:last-child{
-    padding: 20px;
+    padding-bottom: 20px;
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+}
+
+@media only screen and (min-width: 1000px){
+    .conteiner-contato{
+        flex-direction: row;
+        justify-content: space-around ;
+        align-items: center;
+        margin: 50px 20vw;
+    }
+    .redes-sociais{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+    }
+    
 }
