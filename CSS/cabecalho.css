@@ -1,103 +1,41 @@
-header {
+.cabecalho {
     background: #DB6137;
-    
     position: fixed;
-    margin: 0 auto;
     width: 100vw;
     z-index: 1;
 
+  }
+
+  .menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
   }
 
   .logo {
-    height: auto;
-    padding-left: 1vw;
-    position: relative;
-    width: 90px;
-    left: 80px;
-  }
-  nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #000000;
-    height: 0;
-    transition: all .5s;
-   
-  }
-
-  nav ul {
-    text-align: center;
-    overflow: hidden;
-    
-  }
-
-  nav li {
-    margin: 65px;
-    list-style-type: none;
+    height:90px;
+    width: auto;
+    margin-left: 1vw;
   }
   
-  nav a {
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: 600;
-    text-decoration: none;
-    text-transform: uppercase;
-    }
-  
-  .caixa a {
-    scroll-margin: 1sec;
-  }
 
   @media only screen and (min-width: 1000px){
+    .nav-itens{
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      padding-right: 2vw;
+    }
 
-    header {
-    background: #DB6137;
-    
-    position: fixed;
-    margin: 0 auto;
-    width: 100vw;
-    z-index: 1;
+    .nav-item{
+      margin: 0 10px;
+    }
 
-     }
-     nav {
-        display: block;
-        background:none;
-        margin-left: 100px;
-        position: absolute;
-        padding-right: 5vw;
-        top: 30px;
-        right: 0;
-      }
-      
-      nav li {
-        display: inline;
-        margin: 0 0 0 2vw;
-      }
-    
-    
-      nav a {
-      color: #000000;
-        font-size: 15px;
-      font-weight: bold;
-        text-decoration: none;
-      text-transform: uppercase;
-      }
-    
-      nav a:hover {
+    .nav-item a{
+      font-weight: 600;
+      text-decoration: none;
       color: #ffffff;
-        text-decoration: underline;
-      }
-    
-      .logo {
-        height: auto;
-        ;
-        position: relative;
-        width: 80px;
-        
-      }
-
-      .mobile-menu{
-        display: none;
-      }
-
+      font-family: 'Ubuntu', sans-serif;
+    }
   }
