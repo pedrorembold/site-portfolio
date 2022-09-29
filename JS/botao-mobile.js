@@ -8,3 +8,11 @@ botaoMobile.addEventListener('click', function(){
         menuMobile.classList.add('open')
     }
 });
+
+//-------------------------------------------------------------
+const linkMenu = document.querySelector("[data-fechaMenu]")
+linkMenu.addEventListener('click', function(){
+    if(menuMobile.classList.contains('open')){
+        menuMobile.classList.remove('open')
+    }
+})
