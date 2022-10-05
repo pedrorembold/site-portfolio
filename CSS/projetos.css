@@ -68,20 +68,27 @@
     .btn-saiba_mais{
       height: 100px;
       width: 60vw;
-      background-color: #DB6137;
+      background-color: #577A8F;
       border: #ffffff;
+      border: 2px;
       border-style: solid;
       font-size: 30px;
       font-weight: 600;
       margin: 30px 0;
-      text-decoration-color: #ffffff;
       transition: 0.2s;
       cursor: pointer;
+      color: #ffffff;
+    }
+
+    .btn-saiba_mais:hover {
+      background-color: #2E5561;
+      color: #ffffff;
     }
     
     .btn-saiba_mais_ativo{
-      background-color: #ffffff;
+      background-color: #577A8F;
       transition: 0.2s;
       cursor: pointer;
+      
     }
   }
