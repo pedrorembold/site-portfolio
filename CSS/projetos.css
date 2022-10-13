@@ -25,7 +25,7 @@
   .btn-saiba_mais{
     height: 100px;
     width: 80vw;
-    background-color: #DB6137;
+    background-color: #577A8F;
     border: #ffffff;
     border-style: solid;
     font-size: 30px;
@@ -33,6 +33,7 @@
     margin: 30px 0;
     text-decoration-color: #ffffff;
     transition: 0.2s;
+    color: #ffffff
   }
   
   .btn-saiba_mais_ativo{
