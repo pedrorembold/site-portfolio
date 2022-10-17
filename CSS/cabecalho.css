@@ -60,7 +60,7 @@
     font-weight: 600;
     text-decoration: none;
     color: #ffffff;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     width: 100%;
   }
 
@@ -92,7 +92,7 @@
       font-weight: 600;
       text-decoration: none;
       color: #000000;
-      font-family: 'Ubuntu', sans-serif;
+      font-family: 'Montserrat', sans-serif;
     }
     .nav-item a:hover{
       color: #ffffff;

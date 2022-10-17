@@ -1,8 +1,11 @@
 const botao1 = document.querySelector('[data-botao1]');
 const botao2 = document.querySelector('[data-botao2]');
+const botao3 = document.querySelector('[data-botao3]');
 
 const descricao1=document.querySelector('[data-desc1]');
 const descricao2=document.querySelector('[data-desc2]');
+const descricao3=document.querySelector('[data-desc3]');
+
 
 botao1.addEventListener('click', function(){
     if(descricao1.style.display === 'block'){
@@ -24,6 +27,17 @@ botao2.addEventListener('click', function(){
                     descricao2.style.display = 'block';
                     botao2.innerHTML = "Saiba Menos";
                     botao2.classList.add("btn-saiba_mais_ativo");
+                }});
+
+botao3.addEventListener('click', function(){
+    if(descricao3.style.display === 'block'){
+                    descricao3.style.display = 'none';
+                    botao3.innerHTML = "Saiba mais sobre o projeto";
+                    botao3.classList.remove("btn-saiba_mais_ativo");
+                } else {
+                    descricao3.style.display = 'block';
+                    botao3.innerHTML = "Saiba Menos";
+                    botao3.classList.add("btn-saiba_mais_ativo");
                 }});
                 
 
