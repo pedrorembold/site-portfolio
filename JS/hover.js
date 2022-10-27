@@ -1,10 +1,12 @@
 const projeto = document.querySelector('#valorhub');
 
-projeto.addEventListener('hover', function(){
-    let novaImagem = document.querySelector(".nova-imagem");
-    projeto.classList.add(novaImagem);
+projeto.addEventListener('mouseenter', function(){
+    projeto.classList.add("blur");
 })
 
+projeto.addEventListener('mouseleave', function(){
+    projeto.classList.remove("blur"); 
+})
 
 
 

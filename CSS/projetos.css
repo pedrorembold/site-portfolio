@@ -46,7 +46,9 @@
       color: #577A8F;
   }
 
- 
+ .blur{
+  filter: blur(2px);
+ }
 
   
 
