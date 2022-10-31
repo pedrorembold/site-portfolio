@@ -47,6 +47,8 @@
   }
 
  .blur{
+  background-image: url(/HTML/valorhub-tela-dev.png) ;
+  background-size: auto;
   filter: blur(2px);
  }
 
